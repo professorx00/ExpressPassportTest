@@ -1,0 +1,34 @@
+{
+  "name": "ExpressPassportTest",
+  "version": "1.0.0",
+  "description": "ExpressPassportTest",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/professorx00/ExpressPassportTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/professorx00/ExpressPassportTest/issues"
+  },
+  "homepage": "https://github.com/professorx00/ExpressPassportTest#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^8.1.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.17.0",
+    "mongodb": "^3.3.2",
+    "mongoose": "^5.7.4",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  }
+}
